@@ -1,6 +1,6 @@
 # My-Calendar-App
 ## Description
-This coding quiz challenge generated using html, css, and javascript.
+This simple calendar app uses momentjs, jquery, javascript, css, and html. You can use this easy to use app to input your daily tasks and save them so you will be on top of your day!
 
 Working application link: https://dulinp.github.io/My-Calendar-App/
 
