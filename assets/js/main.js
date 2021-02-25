@@ -2,6 +2,8 @@
 var currentDate = moment().format("MMM Do YY");
 $("#currentDay").text(currentDate);
 
+
+
 function buttonSave() {
     $(".saveBtn").on("click", function () {
         var storedText = $(this).siblings(".user-data").val();
@@ -10,7 +12,6 @@ function buttonSave() {
         localStorage.setItem(storedTime, storedText);
     });
 }
-
 
 //This function will set the time correctly with moment
 function timeCheck() {
@@ -37,7 +38,6 @@ function timeCheck() {
         }
     })
 };
-
 
 
 //How to get tasks from local storage
